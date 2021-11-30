@@ -1,0 +1,65 @@
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em; /* 16 / 16 = 1 */
+  line-height: 1.25em; /* 20 / 16 = 1.25 */
+  background-color: #c8d8e4;
+  text-align: left;
+}
+
+#header{
+  font-size: 2em; /* 32/16 = 2 */
+  line-height: 2.5em; /* 40/16 = 2.5em  */
+  background-color: #2b6777;
+  font-family:"proxima-nova", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#navigation {
+  padding-top: 1em;
+  font-size: 1.5em; /* 24/16=1.5 */
+  line-height: 1.75em; /* 28/16=1.75*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: .75em; /* 12/16 = 0.75*/
+}
+
+.step {
+  font-size: 1.5em; /* 24/16 = 1.5 */
+  line-height: 1.75; /* 28/16 = 1.75 */
+}
+
+#step-body {
+  font-size: 1em; /* 16 / 16 = 1*/
+  line-height: 1.25em; /* 20/16=1 */
+  padding-bottom: 2em;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+figcaption {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 30em) { /* 480/16 = 30 */
+  img {
+    max-width:50%;
+    margin: 0 auto;
+    max-height: 50%;
+  }
+}
+
+@media screen and (min-width: 64em) {  /* 1024/16 = 64*/
+  img {
+    max-width: 40%;
+    margin: 0 auto;
+    max-height: 40%;
+  }
+
+}
